@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: es-demo
+  elasticsearch:
+    rest:
+      uris: http://localhost:9200  #es服务器地址（默认）
+
+server:
+  port: 8080
